@@ -22,7 +22,7 @@ class _ProfilescreenState extends State<Profilescreen> {
             Container(
               width: double.infinity,
               color: AppColors.purple,
-              padding: EdgeInsets.only(left: 15, top: 15),
+              padding: EdgeInsets.only(left: 15, top: 40),
               child: Text(
                 'My Profile',
                 style: TextStyle(
