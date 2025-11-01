@@ -26,6 +26,7 @@ class _ProgramtypeState extends State<Programtype> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           appBar(),
@@ -282,7 +283,7 @@ class _ProgramtypeState extends State<Programtype> {
           ),
         ),
         Positioned(
-          top: 20,
+          top: 40,
           left: 20,
           child: IconButton(
             onPressed: () => Navigator.of(context).pop(),
